@@ -1,0 +1,8 @@
+CREATE DATABASE singupp
+
+
+CREATE TABLE loginusers(
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(60) NOT NULL,
+    email VARCHAR(80) NOT NULL,
+    password INTEGER(12) NOT NULL)
